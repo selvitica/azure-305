@@ -15,3 +15,5 @@ for ($i = 1; $i -le 3; $i++)
 
 Write-Host "Displaying VM's"
 Get-AzResource -ResourceType Microsoft.Compute/virtualMachines
+
+Write-Host "use this for removing  Remove-AzResourceGroup -Name MyResourceGroupName"
