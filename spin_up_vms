@@ -6,8 +6,8 @@ for ($i = 1; $i -le 3; $i++)
     Write-Host "Creating VM: " $vmName
     
     # Generate username and password
-    $username = "user" + $i
-    $password = ConvertTo-SecureString -String ("P@ssw0rd" + $i) -AsPlainText -Force
+    $username = "seq_user" + $i
+    $password = ConvertTo-SecureString -String ("seq_P@ssw0rd" + $i) -AsPlainText -Force
     $credential = New-Object System.Management.Automation.PSCredential($username, $password)
     
     New-AzVm -ResourceGroupName $resourceGroup -Name $vmName -Credential $credential -Image Canonical:0001-com-ubuntu-server-focal:20_04-lts:latest
