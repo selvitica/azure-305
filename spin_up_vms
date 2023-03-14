@@ -12,3 +12,6 @@ for ($i = 1; $i -le 3; $i++)
     
     New-AzVm -ResourceGroupName $resourceGroup -Name $vmName -Credential $credential -Image Canonical:0001-com-ubuntu-server-focal:20_04-lts:latest
 }
+
+Write-Host "Displaying VM's"
+Get-AzResource -ResourceType Microsoft.Compute/virtualMachines
