@@ -6,7 +6,6 @@
     Rebuild (out of support programs/apps)
     Replace (replace to meet new all functionalities)
 
-
 >>Ready
   define skills & support readiness, identify gaps
   create a LZ (landing zone -env to host workloads)
@@ -15,4 +14,20 @@
   defined business outcomes
   Method 1 -> Cloud Innovation
   Method 2 -> Cloud Migration
+
+>>Govern and Manage
+  define corporate policies & business risks etc --> azure policies
+  azure blue prints -secure
+  >cost mgnt baseline ( who, how much , admin )
+  >security baseline  (cover all sec aspects)
+  >resource consistency baseline (onboarding, config, recovery practices)
+  >identify baseline (enforce access, rbac etc)
+  >deployment acceleration (centralize templates, drive consistency and standardization)
+
+>>Manage
+ right monitoring, minimal downtime, high availability etc
+
+  
+
+  
   
