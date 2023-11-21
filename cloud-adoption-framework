@@ -1,4 +1,4 @@
->>Plan
+>>>Plan
   5 Rs (Rationalization) : 
     Rehost (Lift & shift)
     Refactor (code-refactor)
@@ -6,11 +6,11 @@
     Rebuild (out of support programs/apps)
     Replace (replace to meet new all functionalities)
 
->>Ready
+>>>Ready
   define skills & support readiness, identify gaps
   create a LZ (landing zone -env to host workloads)
   
->>Adopt
+>>>Adopt
   defined business outcomes
   Method 1 -> Cloud Innovation
   Method 2 -> Cloud Migration
